@@ -109,7 +109,6 @@ out = substringAfter( str, '' );
 
 <!-- /.examples -->
 
-
 <!-- Section for describing a command-line interface. -->
 
 * * *
@@ -183,6 +182,22 @@ efg
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string/substring-before`][@stdlib/string/substring-before]</span><span class="delimiter">: </span><span class="description">return the part of a string before a specified substring.</span>
+-   <span class="package-name">[`@stdlib/string/substring-before-last`][@stdlib/string/substring-before-last]</span><span class="delimiter">: </span><span class="description">return the part of a string before the last occurrence of a specified substring.</span>
+-   <span class="package-name">[`@stdlib/string/substring-after-last`][@stdlib/string/substring-after-last]</span><span class="delimiter">: </span><span class="description">return the part of a string after the last occurrence of a specified substring.</span>
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -239,6 +254,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-substring-after/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/string/substring-before]: https://github.com/stdlib-js/string-substring-before
+
+[@stdlib/string/substring-before-last]: https://github.com/stdlib-js/string-substring-before-last
+
+[@stdlib/string/substring-after-last]: https://github.com/stdlib-js/string-substring-after-last
+
+<!-- </related-links> -->
 
 </section>
 
