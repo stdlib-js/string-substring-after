@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,27 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
 
-// MODULES //
-
-var isString = require( '@stdlib/assert-is-string' ).isPrimitive;
-var isInteger = require( '@stdlib/assert-is-integer' ).isPrimitive;
-var format = require( '@stdlib/error-tools-fmtprodmsg' );
-
-
-// MAIN //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 /**
 * Returns the part of a string after a specified substring.
 *
-* @param {string} str - input string
-* @param {string} search - search string
-* @param {integer} [fromIndex=0] - index at which to start the search
-* @throws {TypeError} first argument must be a string
-* @throws {TypeError} second argument must be a string
-* @throws {TypeError} third argument must be an integer
-* @returns {string} substring
+* @param str - input string
+* @param search - search string
+* @param fromIndex - index at which to start the search (default: 0)
+* @returns substring
 *
 * @example
 * var out = substringAfter( 'Hello, world!', ', ' );
@@ -62,29 +52,9 @@ var format = require( '@stdlib/error-tools-fmtprodmsg' );
 * var out = substringAfter( 'beep boop beep baz', 'beep', 5 );
 * // returns ' baz'
 */
-function substringAfter( str, search, fromIndex ) {
-	var idx;
-	if ( !isString( str ) ) {
-		throw new TypeError( format( '0hf3R', str ) );
-	}
-	if ( !isString( search ) ) {
-		throw new TypeError( format( '0hf3L', search ) );
-	}
-	if ( arguments.length > 2 ) {
-		if ( !isInteger( fromIndex ) ) {
-			throw new TypeError( format( '0hf3B', fromIndex ) );
-		}
-		idx = str.indexOf( search, fromIndex );
-	} else {
-		idx = str.indexOf( search );
-	}
-	if ( idx === -1 ) {
-		return '';
-	}
-	return str.substring( idx+search.length );
-}
+declare function substringAfter( str: string, search: string, fromIndex?: number ): string; // tslint:disable-line:max-line-length
 
 
 // EXPORTS //
 
-module.exports = substringAfter;
+export = substringAfter;
