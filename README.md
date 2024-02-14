@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+substringAfter = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-substring-after/tags). For example,
+
+```javascript
 substringAfter = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@v0.2.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var substringAfter = require( 'path/to/vendor/umd/string-substring-after/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -130,7 +135,7 @@ var out = substringAfter( str, 'o', 3 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
