@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import substringAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-substring-after/tags). For example,
+
+```javascript
 import substringAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@v0.2.0-esm/index.mjs';
 ```
 
@@ -108,7 +113,7 @@ var out = substringAfter( str, 'o', 3 );
 <body>
 <script type="module">
 
-import substringAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@v0.2.0-esm/index.mjs';
+import substringAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@esm/index.mjs';
 
 var str = 'To be, or not to be, that is the question.';
 var out = substringAfter( str, ', ' );
