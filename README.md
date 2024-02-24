@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import substringAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@esm/index.mjs';
+import substringAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@v0.2.1-esm/index.mjs';
 ```
 
 #### substringAfter( str, search\[, fromIndex] )
@@ -108,7 +108,7 @@ var out = substringAfter( str, 'o', 3 );
 <body>
 <script type="module">
 
-import substringAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@esm/index.mjs';
+import substringAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-substring-after@v0.2.1-esm/index.mjs';
 
 var str = 'To be, or not to be, that is the question.';
 var out = substringAfter( str, ', ' );
