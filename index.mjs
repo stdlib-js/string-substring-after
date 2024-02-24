@@ -1,4 +1,0 @@
-// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import{isPrimitive as e}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string@v0.2.0-esm/index.mjs";import{isPrimitive as t}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-integer@v0.1.0-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@v0.1.1-esm/index.mjs";function s(s,i,n){var m;if(!e(s))throw new TypeError(r("invalid argument. First argument must be a string. Value: `%s`.",s));if(!e(i))throw new TypeError(r("invalid argument. Second argument must be a string. Value: `%s`.",i));if(arguments.length>2){if(!t(n))throw new TypeError(r("invalid argument. Third argument must be an integer. Value: `%s`.",n));m=s.indexOf(i,n)}else m=s.indexOf(i);return-1===m?"":s.substring(m+i.length)}export{s as default};
-//# sourceMappingURL=index.mjs.map
